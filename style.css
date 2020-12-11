@@ -1,0 +1,15 @@
+body {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(253, 101, 133, 1) 0%,
+    rgba(255, 211, 165, 1) 90%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+svg {
+  background-color: brown;
+}
