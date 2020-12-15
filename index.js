@@ -4,7 +4,6 @@ fetch(
   .then((res) => res.json())
   .then((res) => {
     const dataset = res.data;
-    console.log(dataset);
 
     drawCanvas();
     generateScale(dataset);
